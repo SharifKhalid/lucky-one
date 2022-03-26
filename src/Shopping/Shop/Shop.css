@@ -12,22 +12,14 @@
      background-color: rgb(193, 241, 225);
      padding: 15px;
      border-radius: 5px;
-     margin-right: 20px;   
+     margin-right: 20px;
+     margin-bottom: 60px;   
  }
  .magic-cart{
      text-align: center;
      color: rgb(238, 84, 23);
  }
- .btn-1{
-    width: 100%;
-    background-color: rgb(241, 208, 157);
-    font-weight: 700;
-    font-size: large;
-    border-radius: 5px;
-    height: 40px;
-    margin-bottom: 10px;
-    color: rgb(30, 3, 56);  
- }
+ 
  .btn-2{
     width: 100%;
     background-color: rgb(241, 208, 157);
@@ -36,6 +28,10 @@
     border-radius: 5px;
     height: 40px;
     margin-bottom: 10px;  
+ }
+ 
+ .btn-2:hover{
+     background-color: orange;
  }
 
 @media  screen and (max-width: 600px) {

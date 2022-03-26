@@ -39,7 +39,7 @@ const Shop = () => {
             <div className='shop-cart'>
                 <h1 className='magic-cart'>Selected Items</h1>
                 <h2 >{cart}  </h2>
-                <button className='btn-1'>Choose one for me</button>
+                <button className='btn-2'>Choose one for me</button>
                 <button className='btn-2'>Choose Again</button>
             </div>
         </div>
