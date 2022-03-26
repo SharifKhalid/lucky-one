@@ -1,10 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
+import Shop from './Shopping/Shop/Shop';
+
+
 
 function App() {
+  
   return (
-    <div className="App">
-      <h1>My Eighth Assignment</h1>
+    <div >
+      <h1>My Eighth Assignment</h1>;
+      <Shop></Shop>
+      
     </div>
   );
 }

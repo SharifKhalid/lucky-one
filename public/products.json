@@ -1,0 +1,56 @@
+[
+    {
+        "phone_name":"iPhone 13 mini",
+        "price":800,
+        "id":"aa11101",
+        "image":"https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-mini.jpg"},
+        
+    {   
+        "phone_name":"iPhone 13 Pro",
+        "price":950,
+        "id":"aa11102",
+        "image":"https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro.jpg"},
+            
+    {   
+        "phone_name":"iPhone 13 Pro Max",
+        "price":1000,
+        "id":"aa11103",
+        "image":"https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro-max.jpg"},
+    
+    {   
+        "phone_name":"iPhone 13",
+        "price":900,
+        "id":"aa11104",
+        "image":"https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13.jpg"},
+    
+    {   
+        "phone_name":"iPhone 12 Pro Max",
+        "price":750,
+        "id":"aa10237",
+        "image":"https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro-max-.jpg"},
+    
+    {   
+        "phone_name":"iPhone 12 Pro",
+        "price":800,
+        "id":"aa10508",
+        "image":"https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro--.jpg"},
+    
+    {   
+        "phone_name":"iPhone 12",
+        "price":700,
+        "id":"aa10509",
+        "image":"https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12.jpg"},
+    
+    {   
+        "phone_name":"iPhone 12 mini",
+        "price":650,
+        "id":"aa10510",
+        "image":"https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-mini.jpg"},
+            
+    {   
+        "phone_name":"iPhone 11 Pro Max",
+        "price":600,
+        "id":"aa9846",
+        "image":"https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11-pro.jpg"}
+        
+]

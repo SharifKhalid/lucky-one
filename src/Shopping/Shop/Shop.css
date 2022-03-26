@@ -1,0 +1,9 @@
+.super-shopping{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+}
+.shop-window{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
