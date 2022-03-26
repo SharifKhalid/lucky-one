@@ -3,8 +3,7 @@ import Product from '../Products/Product';
 import './Shop.css'
 
 
-
-
+// ------Magic Shop-------
 const Shop = () => {
     const [product,setProduct]=useState([]);
     const [cart, setCart]= useState([]);
@@ -15,14 +14,18 @@ const Shop = () => {
         .then(data=>setProduct(data))
     },[])
 
+//-------Event Handler------
     const handler=(produ)=>{
         console.log(produ);
         const newCart = [...cart, produ.phone_name];
         setCart(newCart);
     };
     
+    
+// Section of Magic Shop
     return (
         <div className='super-shopping'>
+            
             <div className='shop-window'>
                {
                    product.map(products=> <Product 
@@ -30,13 +33,14 @@ const Shop = () => {
                     phone={products}
                     handler={handler}
                     ></Product>)   
-               }
-               
+               } 
             </div>
 
             <div className='shop-cart'>
-                <h1>Magic Cart</h1>
-                <h1>{cart}</h1>
+                <h1 className='magic-cart'>Selected Items</h1>
+                <h2 >{cart}  </h2>
+                <button className='btn-1'>Choose one for me</button>
+                <button className='btn-2'>Choose Again</button>
             </div>
         </div>
     );

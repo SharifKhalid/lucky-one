@@ -3,13 +3,40 @@
     grid-template-columns: 4fr 1fr;
     margin-left: 50px;
     margin-top: 50px;
-
 }
 .shop-window{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
 }
+ .shop-cart{
+     background-color: rgb(193, 241, 225);
+     padding: 15px;
+     border-radius: 5px;
+     margin-right: 20px;   
+ }
+ .magic-cart{
+     text-align: center;
+     color: rgb(238, 84, 23);
+ }
+ .btn-1{
+    width: 100%;
+    background-color: rgb(241, 208, 157);
+    font-weight: 700;
+    font-size: large;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 10px;
+    color: rgb(30, 3, 56);  
+ }
+ .btn-2{
+    width: 100%;
+    background-color: rgb(241, 208, 157);
+    font-weight: 700;
+    font-size: large;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 10px;  
+ }
 
 @media  screen and (max-width: 600px) {
     .shop-window{
@@ -18,6 +45,5 @@
     }
     .super-shopping{
         display: block;
-    }
-    
+    }  
 }
