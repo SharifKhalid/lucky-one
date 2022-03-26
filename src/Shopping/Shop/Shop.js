@@ -14,7 +14,9 @@ const Shop = () => {
         .then(data=>setProduct(data))
     },[])
 
-    
+    const handler=(produ)=>{
+        console.log(produ);
+    };
     
     return (
         <div className='super-shopping'>
@@ -23,14 +25,14 @@ const Shop = () => {
                    product.map(products=> <Product 
                     key={products.id}
                     phone={products}
-                    ></Product>)
-                   
+                    handler={handler}
+                    ></Product>)   
                }
                
             </div>
 
             <div className='shop-cart'>
-                <h1>shop cart</h1>
+                <h1>Magic Cart</h1>
             </div>
         </div>
     );

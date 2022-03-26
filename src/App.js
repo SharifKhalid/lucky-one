@@ -9,7 +9,7 @@ function App() {
   
   return (
     <div >
-      <h1>My Eighth Assignment</h1>;
+      
       <Shop></Shop>
       
     </div>
