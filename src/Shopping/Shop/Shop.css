@@ -10,3 +10,14 @@
     grid-template-columns: repeat(3, 1fr);
 
 }
+
+@media  screen and (max-width: 600px) {
+    .shop-window{
+        grid-template-columns: repeat(1, 1fr);
+        margin-right: 50px;
+    }
+    .super-shopping{
+        display: block;
+    }
+    
+}
