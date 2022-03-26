@@ -1,10 +1,28 @@
 .phone{
     width: 300px;
     height: 500px;
+    border: 1px solid wheat;
+    background-color: beige;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 60px;
 }
 
 .phone img{
     width: 250px;
     height: 300px;
+    margin-left: 15px;
+    border-radius: 25px;
 
+}
+.btn{
+    width: 100%;
+   background-color: rgb(241, 208, 157);
+   font-weight: 800;
+   font-size: large;
+   border-radius: 10px;
+   
+}
+.btn:hover{
+    background-color: orange;
 }

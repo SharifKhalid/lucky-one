@@ -7,7 +7,8 @@ const Product = (props) => {
         <div className='phone'>
             <img src={image} alt="" />
             <h2>{phone_name}</h2>
-            <h2>{price}</h2>
+            <h2>${price}</h2>
+            <button className='btn'><p>Add to Cart</p></button>
 
         </div>
     );
