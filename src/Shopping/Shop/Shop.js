@@ -19,16 +19,17 @@ const Shop = () => {
     const handler=(produ)=>{
         const newCart = [...cart, produ.phone_name]
         setCart(newCart);
-        if(newCart.length > 4){
-            newCart.pop();
-        }
+        
     };
 
 // -----remove handler-----
 const removeHandler=()=>{
     let removeCart =cart;
+    let randomSelect = randomValue;
     removeCart = [];
+    randomSelect = [];
     setCart(removeCart);
+    setRandomValue(randomSelect);
 };
 
 // ------random selection-------
@@ -54,8 +55,11 @@ const randomSelect=()=>{
             <div className='shop-cart'>
                 <h1 className='magic-cart'>Selected Items</h1>
                 <h2 >{cart}  </h2>
+                
                 <button onClick={randomSelect}  className='btn-2'>Choose one for me</button>
+                
                 <h2>{randomValue}</h2>
+                
                 <button onClick={removeHandler} className='btn-2'>Choose Again</button>
             </div>
         </div>
